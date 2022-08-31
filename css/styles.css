@@ -10,8 +10,12 @@ body {
 }
 
 .timer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   font-size: 64px;
-  margin-top: 50px;
+  justify-content: center;
+  min-height: 100vh;
   text-align: center;
 }
 
